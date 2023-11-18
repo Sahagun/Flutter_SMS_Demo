@@ -84,7 +84,7 @@ class _SMSFormState extends State<SMSForm>{
             keyboardType: TextInputType.phone,
             inputFormatters: [
               FilteringTextInputFormatter.digitsOnly,
-              LengthLimitingTextInputFormatter(10), // Adjust the length as needed
+              LengthLimitingTextInputFormatter(160), // Adjust the length as needed
               // You can add more formatters or customize based on your needs
             ],
             decoration: const  InputDecoration(
