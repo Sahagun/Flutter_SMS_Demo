@@ -104,9 +104,7 @@ class _SMSFormState extends State<SMSForm>{
           ),
 
           // Submit Button
-          ElevatedButton(onPressed: onSubmitPressed, child: const Text('Send')),
-
-          const Text('a')
+          ElevatedButton(onPressed: onSubmitPressed, child: const Text('Send Text')),
 
         ],
       )
